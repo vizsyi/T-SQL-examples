@@ -34,7 +34,7 @@ BEGIN
 	)
 
 	/*--For test
-	DECLARE @mchs VARCHAR(MAX) = 'GG031,GG032,GG039'
+	DECLARE @mchs VARCHAR(MAX) = 'MA031,MA032,MA039'
 	DECLARE @sFrom BIGINT = 1586263500000
 	DECLARE @sTo BIGINT	= 1586349900000*/
 
@@ -94,8 +94,8 @@ END -- of PROCEDURE
 
 ----- Execute
 /*
-EXEC GrafanaSource.dbo.mashineRun @mch = 'GG032', @sFrom = 1586080440000, @sTo = 1586166840000
-EXEC GrafanaSource.dbo.mashinesRun @mchs = 'GG032', @sFrom = 1586080440000, @sTo = 1586166840000
-EXEC GrafanaSource.dbo.mashinesRun @mchs = 'GG031,GG032,GG039,GG040,GG096,GG097,GG098,GG200'
+EXEC GrafanaSource.dbo.mashineRun @mch = 'MA032', @sFrom = 1586080440000, @sTo = 1586166840000
+EXEC GrafanaSource.dbo.mashinesRun @mchs = 'MA032', @sFrom = 1586080440000, @sTo = 1586166840000
+EXEC GrafanaSource.dbo.mashinesRun @mchs = 'MA031,MA032,MA039,MA040,MA046,MA047,MA048,MA050'
 	,@sFrom = 1586080440000, @sTo = 1586166840000
 */
